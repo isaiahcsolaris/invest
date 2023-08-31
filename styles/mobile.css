@@ -42,7 +42,7 @@
   .mobile-menu-box{
     position: fixed;
     right: 0;
-    bottom: 30px;
+    bottom: 0;
     top: 0;
     display: flex;
     justify-content: center;
