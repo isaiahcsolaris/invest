@@ -110,11 +110,11 @@ let userN = document.getElementById('login-btn');
 
 userN.addEventListener('click', ()=>{
   if(document.lformz.logInusername.value === 'admin' && document.lformz.logInpassword.value === 'admin123'){
-    alert('success');
+    alert(`Login\nSuccessful`);
     window.location = 'account.html';
   }
   else{
-    alert('incor')
+    alert(`Please enter\correct details`);
     return;
   }
 });
