@@ -114,7 +114,7 @@ userN.addEventListener('click', ()=>{
     window.location = 'account.html';
   }
   else{
-    alert(`Please enter\correct details`);
+    alert(`Please enter\nCorrect details`);
     return;
   }
 });
