@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Log in</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/log.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+
+  <body>
+
+    <span class="log-put"></span>
+
+    <section class="header-log">
+      <p class="brand-name" id="home-link"><span>&#128177;</span>S-INVEST</p>
+    </section>
+
+    <section class="log-main">
+      <div class="log-cont">
+        <form action="" name="lformz" onsubmit="return(validlogIn())">
+          <h1>Log in</h1>
+
+          <div class="log-input">
+            <input type="text" placeholder="username" name="logInusername">
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="log-input">
+            <input type="password" placeholder="password" id="pswd" name="logInpassword">
+            <i class="fa-solid fa-lock"></i>
+            <div id="snh"><i class="fa-solid fa-eye"></i></div>
+          </div>
+
+          <div class="remember-password">
+            <label><input type="checkbox">Remember Me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="button" class="btn" id="login-btn">Login</button>
+
+          <div class="register-link">
+            <p>Don't have account? <a href="register.html">register</a></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    <script src="../script/log.js"></script>
+  </body>
+
+</html>

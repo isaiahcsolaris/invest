@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alert</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/promt.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="back-btn" id="prev-btn">
+      &#5176;
+    </div>
+
+    <div class="promo-main">
+      <div class="promo">
+        we are not runing any promotion at this time.<br>Check again later
+      </div>
+  
+    </div>
+    
+    <script>
+      
+      let backBtn = document.getElementById('prev-btn');
+
+      backBtn.addEventListener('click', () =>{
+        history.back();
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+@media(max-width: 750px){
+  .profile{
+    width: 100%;
+  }
+  
+}
+
+@media(max-width: 700px){
+  header{
+    padding: 10px;
+  }
+    
+  header p{
+    font-size: 22px;
+  }
+  
+  #name span{
+    font-size: 30px;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .nav-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background:url(../iconz/menu.webp);
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2000;
+    transition: 0.3s ease;
+  }
+
+  .nav-btn.nav-option{
+    background:url(../iconz/close.jpg);
+    background-size: cover;
+  }
+
+  .mobile-menu-box{
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #020202f6;
+    z-index: 1000;
+    display: none;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+
+  .mobile-menu a, link{
+    text-decoration: none;
+  }
+
+  .mobile-menu a div{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: 3px underline;
+    color: #f58c02;
+  }
+
+  .mobile-menu a div:hover{
+    color: #fff;
+  }
+
+  .mobile-menu-box.nav-option{
+    display: flex;
+    transition: 0.5s ease;
+  }
+
+  .main{
+    padding: 60px 0px;
+  }
+
+  .intro{
+    width: 90%;
+    font-size: 35px;
+  }
+
+  .fut{
+    width: 95%;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .intro-2{
+    width: 90%;
+  }
+
+  .about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .about-detail{
+    width:100%;
+    text-align: center;
+  }
+  
+  .abt{
+    margin-top: -80px;
+  }
+
+  
+  .referral{
+    width: 100%;
+  }
+
+
+  .ref-expl{
+    width:100%;
+    text-align: center;
+  }
+
+  .address{
+    margin-bottom: 30px;
+  }
+
+  /*PAGES MOBILE STYLES*/
+
+  .nav-2{
+    display: none;
+  }
+
+  .brand-name{
+    font-size: 22px;
+    width: 160px;
+  }
+  
+  .brand-name span{
+    font-size: 30px;
+  }
+
+  .dashboard-box{
+    padding: 10px;
+  }
+
+  .dashboard{
+    width: 100%;
+  }
+
+  /* deposit style*/
+
+  .deposit-box{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-box{
+    width: 100%;
+  }
+
+  /* profile style*/
+
+  .profile{
+    width: 95%;
+    padding: 10px;
+  }
+
+  .profile-pic-box{
+    width: 150px;
+  }
+  
+  
+  .profile-detail p{
+    font-size: 17px;
+  }
+  
+  .investor-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .investor-portfolio div{
+    width: 70%;
+    margin: 10px;
+  }
+  
+  .profile-btns{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*log in page*/
+
+  .log-cont{
+    width: 70%;
+  }
+
+}
+
+@media(max-width: 500px){
+  .log-cont{
+    width: 95%;
+  }
+  
+}

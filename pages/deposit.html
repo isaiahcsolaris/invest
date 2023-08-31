@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Deposit</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/pages.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+
+  <body>
+    <section class="main">
+
+      <section class="header-2">
+        <p class="brand-name" id="home-link"><span>&#128177;</span>S-INVEST</p>
+
+        <div class="nav-2">
+  
+          <a href="account.html"><div>Dashboard</div></a>
+          <a href="deposit.html"><div>Deposit</div></a>
+          <a href="withdraw.html"><div>Withdrawal</div></a>
+          <a href="promo.html"><div>Promoton</div></a>
+          <a href="profile.html"><div>Profile</div></a>
+
+        </div>
+
+        <div class="nav-btn"></div>
+      </section>
+
+      <div class="mobile-menu-box">
+
+        <div class="mobile-menu">
+          <a href="account.html"><div>Dashboard</div></a>
+          <a href="deposit.html"><div>Deposit</div></a>
+          <a href="withdraw.html"><div>Withdrawal</div></a>
+          <a href="promo.html"><div>Promoton</div></a>
+          <a href="profile.html"><div>Profile</div></a>
+        </div>
+
+      </div>
+
+      <section class="deposit-box">
+        <div class="p-box">
+          <form class="payment" name="frm" onsubmit="validx()">
+            <p>Choose your Prefared Payment Method. <br> Copy The address and proceed with the payment</p>
+
+            <select class="choose" name="methodz" id="pMethod" onchange="checkx()">
+              <option value="">Payment Options</option>
+              <option value="bank">Bank Transfer</option>
+              <option value="btc">Bitcoin</option>
+              <option value="USDT">USDT</option>
+              <option value="eth">Ethereum</option>
+              <option value="Paypal">Paypal</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="account-number">Acct.Number/Address :</label><br>
+            <input type="text" id="account-number" value="" readonly name="accountnum">
+
+            <br>
+            <br>
+
+            <label for="method">Selected Method :</label><br>
+            <input type="text" id="method" value="" readonly name="selectdmethod">
+
+            <br>
+            <br>
+
+            <label for="account-name">Account Name:</label><br>
+            <input type="text" id="account-name" value="S-Invest Corp." readonly>
+
+            <br>
+            <br>
+
+            <label for="amount">Deposit Amount :</label><br>
+            <input type="text" id="amount" placeholder=" Amount" name="amount"  onchange="checky()">
+
+            <p id="msg"></p>
+
+            <div><input type="submit" value="Confirm Deposit" id="deposit-btn"></div>
+
+          </form>
+        </div>
+      </section>
+  
+      <section class="contact-box">
+  
+        <p class="c-head">Contacts</p>
+  
+        <div class="Contacts">
+          <div class="address">
+            <p class="contact-head">Address</p>
+            <p id="address1"><span><i class="fas fa-location"></i></span>Akeleistraat 46. Nieuw Vennep,Netherlands</p>
+          </div>
+  
+          <div class="socials">
+            <p class="contact-head">Socials</p>
+            <div class="social-icons">
+              <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+              <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+              <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+              <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram"></i><span>Telegram</span></a>
+              <a href="https://whatsapp" target="_blank"><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a>
+              <a href="mailto:sinvestdemo@gmail.com"><i class="fas fa-envelope"></i><span>Email</span></a>
+            </div>
+          </div>
+  
+          <div class="links">
+            <p class="contact-head">Quick Links</p>
+  
+            <a href=""><p class="link">Login</p></a>
+            <a href=""><p class="link">Sign Up</p></a>
+            <a href=""><p class="link">Dashboard</p></a>
+            <a href="deposit.html"><p class="link">Deposit</p></a>
+            <a href="withdraw.html"><p class="link">Withdrawal</p></a>
+
+          </div>
+        </div>
+      </section>
+  
+      <footer>Copyright &#9426;2023 by S-INVEST. All rights reserved!</footer>
+
+    </section>
+
+
+    <script src="../script/invest.js"></script>
+  </body>
+
+</html>

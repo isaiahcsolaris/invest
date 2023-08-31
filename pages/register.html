@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Register</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/log.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+
+  <body>
+
+    <span class="log-put"></span>
+
+    <section class="header-log">
+      <p class="brand-name" id="home-link"><span>&#128177;</span>S-INVEST</p>
+    </section>
+
+    <section class="log-main">
+
+      <div class="log-cont">
+        <form action="" name="sformz" onsubmit="return(regvalid())">
+          <h1>Sign Up</h1>
+
+          <div class="log-input">
+            <input type="text" placeholder="First Name" name="fname">
+            <i class="fa-solid fa-pen"></i>
+          </div>
+
+          <div class="log-input">
+            <input type="text" placeholder="Last Name" name="lname">
+            <i class="fa fa-users"></i>
+          </div>
+
+          <div class="log-input">
+            <input type="text" placeholder="Choose a Username" name="rusername">
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="log-input">
+            <input type="tel" placeholder="Phone Number" name="phnumber">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+
+          <div class="log-input">
+            <input type="email" placeholder="email" name="remail">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="remember-password" id="sex">
+            <span>Sex : (optional)</span> 
+            <label>Male<input type="checkbox" value="male" name="rmale"></label>
+            <label>Female<input type="checkbox" value="female" name="rfemale"></label>
+          </div>
+
+          <div class="log-input">
+            <input type="password" placeholder="Create a Password" id="pswd" name="pass1">
+            <i class="fa-solid fa-lock"></i>
+            <div id="snh"><i class="fa-solid fa-eye"></i></i></div>
+          </div>
+
+          <div class="log-input">
+            <input type="text" placeholder="Confirm Password" id="pswd" name="pass2">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+
+          <button type="submit" class="btn" id="register-btn">Register</button>
+
+          <div class="register-link">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+          </div>
+
+          
+        </form>
+      </div>
+    </section>
+
+    <div class="infomay">
+      close the tab after registration and then login with the demo log in details
+    </div>
+
+
+
+    <script src="../script/log.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,462 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Delius, Arial;
+  color: #fff;
+}
+
+body{
+  background: url(../pix/bbg7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.main{
+  padding: 60px 10px;
+}
+
+.header-2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #885f30;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1900;
+}
+
+.brand-name{
+  font-family: Arial;
+  font-size: 30px;
+  color: #daa520;
+  font-weight: bolder;
+  width: 200px;
+}
+
+.brand-name span{
+  font-size: 40px;
+}
+
+.brand-name:hover{
+  cursor: pointer;
+}
+
+.nav-2{
+ width: 80%;
+ display: flex;
+ margin-right: -50px;
+}
+
+.nav-2 a, link{
+  text-decoration: none;
+}
+
+.nav-2 div{
+  background: #fff;
+  color: #111110;
+  font-size: 18px;
+  font-weight: 900;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.nav-2 div:hover{
+  background: #111110;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dashboard-box{
+  width: 100%;
+  background: #111110dc;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+.dashboard{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: #fff 3px double;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.dash-boxes{
+  padding: 30px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background: #685a38;
+  box-shadow: 2px 2px 2px #fff;
+  position: relative;
+}
+
+.head{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.dash-fig{
+  font-size: 25px;
+  font-weight: 900;
+  color: #111110;
+}
+
+.dash-name{
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.dash-sign{
+  font-size: 50px;
+  color: rgb(255, 230, 4);
+}
+
+.ref-box{
+  width: 100%;
+  background: #111110dc;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.ref-box P{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.ref-box div{
+  background: #e2dede;
+  color: #016bf5;
+  padding: 30PX;
+  border: #0374f5 5px double;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.contact-box{
+  width: 100%;
+  padding: 30px;
+  background: #ffffffe7;
+  padding-bottom: 100px;
+  border-radius: 20px;
+}
+
+.Contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+.contact-head{
+  color: #0558f3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.social-icons,
+.address{
+  width: 300px;
+}
+
+#address1{
+  color: #dd7e11;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+#address1 i{
+  color: #000000;
+}
+
+#address1 span {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100px;
+  
+}
+
+.social-icons a{
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  transition: 0.5s ease;
+}
+
+.social-icons a:hover{
+  transform: scale(1.5);
+}
+
+.social-icons i{
+  color: #000000;
+}
+
+.social-icons a span{
+  margin-left: 10px;
+  font-size: 15px;
+  color: #0c0b0b;
+}
+
+.link{
+  color: #000000;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 900;
+  transition: 0.5s ease;
+}
+
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+footer{
+  padding: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  background: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*DEPOSIT AND WITHDRAWAL STYLE*/
+
+.deposit-box{
+  width: 100%;
+  background: #111110dc;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+.choose{
+  background: #0c0b0b;
+  padding: 10px 5px;
+  font-size: 20px;
+  margin: 10px;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.choose option{
+  cursor: pointer;
+}
+
+.p-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #bcc8c9 5px solid;
+  padding: 20px;
+  border-radius: 15px;
+  width: 70%;
+}
+
+#account-number,
+#amount,
+#amount2,
+#method,
+#account-name{
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
+  background: #3b4849;
+  width: 300px;
+  font-weight: 600;
+  color: #ffeaea;
+  border: #ffffff 4px solid;
+  border-radius: 10px;
+}
+
+#account-number::placeholder,
+#account-name::placeholder,
+#amount::placeholder,
+#amount2::placeholder{
+  text-align: center;
+  color: #9c9b9b;;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+label{
+  font-size: 20px;
+  outline: none;
+  color: #f5bc01;
+  font-weight: 700;
+}
+
+.payment p{
+  font-size: 20px;
+  outline: none;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+#withdraw-btn,
+#deposit-btn{
+  background: #03ee49;
+  color: #111110;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px #ffffff;
+  cursor: pointer;
+}
+
+/* PROFILE STYLES*/
+
+.b-cover-2{
+  background: #000000a2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.profile{
+  width: 750px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background: #000000;
+  box-shadow: 5px 5px 10px #dd7e11;
+}
+
+.profile-pic-box{
+  width: 200px;
+  margin: auto;
+}
+
+.profile-pic-box img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-detail{
+  width: 100%;
+}
+
+.profile-detail p{
+  width: 90%;
+  text-align: center;
+  color: #ffba27;
+  border: #af7b40 4px solid;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 15px;
+  border-left: none;
+  border-right: none;
+}
+
+.profile-detail p span{
+  color: #01edf5;
+}
+
+.investor-portfolio{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.investor-portfolio div{
+  padding: 30px;
+  width: 200px;
+  margin: 10px;
+  background: #24703b;
+  border-radius: 10px;
+  box-shadow: #f0f0f0 2px 3px 6px;
+}
+
+.port-detail{
+  color: #f3c11e;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.port-figure{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.profile-btns{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-btns button{
+  background: #0558f3;
+  border: none;
+  padding: 10px 15px;
+  font-size: 19px;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.profile-btns button:hover{
+  text-decoration: underline 2px;
+}
+
+/*PAGES DISPLAY STYLES*/
+
+.mobile-menu-box{
+  display: none;
+}
